@@ -148,6 +148,7 @@ Take the following data and normalize it into a 3NF database.
 
 
 Person Table
+
 | Person ID | Person Name | Fenced Yard | City Dweller |
 | --------- | ----------- | ----------- | ------------ |
 | 1         | Jane        | No          | Yes          |
@@ -155,6 +156,7 @@ Person Table
 | 3         | Sam         | Yes         | No           |
 
 Pet Type Table
+
 | Pet Type ID | Pet Type |
 | ----------- | -------- |
 | 1           | Cat      |
@@ -164,6 +166,7 @@ Pet Type Table
 | 5           | Turtle   |
 
 Pet Table
+
 | Pet ID | Person ID | Pet Name   | Pet Type |
 | ------ | --------- | ---------- | -------- |
 | 1      | 1         | Ellie      | 2        |
